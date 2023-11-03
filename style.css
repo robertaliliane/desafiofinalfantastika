@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: border-box;
+  }
+  
+  header {
+    background-color: #252525;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+  
+  header div {
+  width: 20%
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  }
+  
+  header div .logo {
+    width: 20vw;
+    height:10vh;
+  }
+  
+  header nav {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  header nav img {
+     width: 3vw;
+     height: 4vh;
+  }
+
+  .dogchapeu{
+    width: 100%;
+    height: 120vh;
+    background-image: url(./imagem/dog1web.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 120vh;
+    color:#FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dogchapeu img {
+    width: 160px;
+    padding-top: 3rem;
+  }
+
+.dogchapeu h1 {
+    width: 60%;
+   margin-top: -40vh;
+   font-size: 5rem;
+text-align: center;
+font-family: 'Roboto Serif', serif;
+}
+
+.dogleao {
+   width: 100%;
+   height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url(./imagem/dog2web.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 150vh;
+}
+
+.divdogleao{
+    margin-left: 2rem;
+    width: 40%;
+    height: 50vh;
+    padding-top: 1rem;
+
+}
+
+.divdogleao h2 {
+    font-size: 4rem;
+    font-family: 'Roboto Serif', serif;
+}
+
+.divdogleao p {
+    font-size: 2rem;
+    font-family: "Roboto Serif";
+
+}
+
+.botaodogleao{
+    width:250px;
+    height: 80px;
+    font-size: 2rem;
+    border-radius: 60px 60px 60px 60px;
+    background-color:#3A342F ;
+    color: #F4F2F3;
+    font-family: "Roboto";
+}
+
+.doguinho {
+    width: 100%;
+    height: 150vh;
+   background-image: url(./imagem/dog3web.png);
+   background-size: 100% 100vh;
+   background-repeat: no-repeat;
+   background-size: 100% 150vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-end;
+}
+
+.divdoguinho{
+    margin-right: 2rem;
+    width: 50%;
+    height: 50vh;
+    padding-top: 1rem;
+    color: #F4F2F3;
+    margin-top: 1rem;
+}
+
+.divdoguinho h2 {
+    font-size: 5rem;
+    font-family: "Roboto";
+
+}
+
+.divdoguinho p{
+font-size: 2rem;
+font-family: "Roboto Serif";
+
+}
+
+.botaodoguinho{
+    width:250px;
+    height: 80px;
+    font-size: 1.5rem;
+    border-radius: 60px 60px 60px 60px;
+    background-color:#F4F2F3 ;
+    color: #3A342F;
+    font-family: "Roboto";
+    
+}
+
+.propagandas {
+width: 100%;  
+height: 20vh; 
+background-color: #FFFFFF;
+color: #fd6a9a;
+font-family: 'Roboto Serif', serif;
+font-style: italic;
+font-size: 1.5rem;
+display: flex;  
+justify-content: center; 
+align-items: center;   
+}
+
+.propagandas div {
+width:30%;
+height: 15vh;    
+display: flex;
+align-items: center;
+justify-content: center;
+align-content: center; 
+justify-content: space-evenly;
+}
+
+.propagandas img {
+    width: 15vh;
+}
+
+footer {
+    background-color: #FD6A9A;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:#FFFFFF;
+    font-size: 1.2rem;
+    font-family: 'Roboto';
+    }
+
+footer h3{
+font-size: 2.5rem;
+    }
+
+footer div {
+    width: 20%;
+    height: 40vh;
+    margin-left:60px;
+    display: flex;
+    align-items: left;
+    justify-content: center; 
+    flex-direction: column;
+    justify-content: space-evenly:
+}
+
+.logofantastika, .rsfooter{
+    display:none;
+}
+
+
+  @media screen and (max-width:500px)
+  {
+    header {
+
+    }
+
+.dogchapeu {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./imagem/dog1mob.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100vh;
+
+    }
+
+.dogchapeu h1 {
+        font-size: 2rem;
+        margin-top:-50vh;
+        width:80%;
+    }
+
+.dogchapeu img {
+        padding-top: 1rem;
+        width:120px;
+    }
+
+.dogleao {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./imagem/dog2mob.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+
+}
+
+.divdogleao{
+    width: 100%;
+    height: 95vh;
+    padding: 0;
+    margin-top: 0;
+    margin-left: 0.5rem;
+
+}
+
+.divdogleao h2 {
+    font-size: 2.6rem;
+
+}
+
+.divdogleao p{
+    font-size: 1.5rem;
+}
+
+.botaodogleao {
+    margin-top: 1rem;
+    width: 200px;
+    height: 80px;
+
+}
+
+.doguinho{
+    width: 100%;
+    height: 10vh;
+   background-image: url(./imagem/dog3mob.png);
+   background-size: 100% 100vh;
+   background-repeat: no-repeat;
+   background-size: 100% 100vh;  
+}
+
+.divdoguinho{
+    margin-right: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.divdoguinho h2 {
+    font-size: 2.6rem;
+}
+
+.divdoguinho p{
+    font-size: 1.5rem;
+}
+
+.botaodoguinho {
+    margin-top: 1em;
+    width: 200px;
+    height: 80px;
+}
+
+.propagandas{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.propagandas img {
+    width: 150px;
+
+}
+
+.propagandas div {
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+footer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.logofantastika {
+    display: flex;
+    width: 25vh;
+
+}
+
+.rsfooter {
+    display: flex;
+    align-items: stretch;
+
+}
+
+.rsfooter ul {
+    width:100%
+ 
+    flex-direction: row;
+    justify-content: space-around;
+   display: flex;
+}
+
+.rsfooter img {
+    width: 5vh;
+
+}
+
+.atendimento, .sobre, .unidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+  }
